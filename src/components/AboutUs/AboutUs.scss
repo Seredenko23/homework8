@@ -1,0 +1,13 @@
+@import "../../css/variables";
+
+.about-us {
+  position: relative;
+  min-height: 1332px;
+  background-color: $background-color;
+}
+
+.town {
+  width: 100%;
+  position: absolute;
+  bottom: -2px;
+}
