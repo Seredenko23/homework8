@@ -1,0 +1,14 @@
+@import "../../css/variables";
+
+.logo {
+  margin:0 22px;
+  min-width: 55px;
+  min-height: 55px;
+  background-color: black;
+  text-align: center;
+  &-letter {
+    color: $second-main-font-color;
+    font-size: 30pt;
+    font-weight: bold;
+  }
+}
