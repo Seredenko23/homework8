@@ -13,7 +13,8 @@ class Header extends Component {
                 <Navigation/>
                 <Headline
                     header='We build it with passion'
-                    description='Just to be clear, we do this for fun not for you, just kidding.'>
+                    description='Just to be clear, we do this for fun not for you, just kidding.'
+                    size='big'>
                     <Button text='READ MORE'/>
                 </Headline>
                 <GoDown/>
