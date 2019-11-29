@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["Developer.scss"],"names":[],"mappings":"AAAA;EACE;EACA;;AACA;EACE;EACA;EACA;;AAEF;EACE;;AAEF;EACE;;;AAIJ;EACE","file":"Developer.css"}
+{"version":3,"sourceRoot":"","sources":["Developer.scss","../../css/variables.scss"],"names":[],"mappings":"AAEA;EACE;EACA;;AACA;EACE;EACA;EACA;;AAEF;EACE;;AAEF;EACE;EACA,OCfc;;;ADmBlB;EACE","file":"Developer.css"}

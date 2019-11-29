@@ -1,0 +1,31 @@
+.contact-input, .contact-textarea {
+  min-width: 770px;
+  margin: 10px 0;
+  font-size: 15pt;
+}
+
+.contact-input {
+  height: 52px;
+}
+.contact-input::placeholder {
+  text-align: center;
+}
+
+.contact-textarea {
+  min-height: 195px;
+  resize: none;
+}
+.contact-textarea::placeholder {
+  padding: 10px;
+}
+
+.submit {
+  min-width: 776px;
+  height: 52px;
+  border: 2px solid black;
+  font-size: 17pt;
+  color: white;
+  background-color: #1d1d1d;
+}
+
+/*# sourceMappingURL=Form.css.map */

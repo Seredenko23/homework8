@@ -1,0 +1,26 @@
+import React, {Component} from 'react';
+import Headline from "../Headline/Headline";
+import Contacts from "../Contacts/Contacts";
+import Form from "../Form/Form";
+import './ContactUs.scss'
+
+class ContactUs extends Component {
+    render() {
+        return (
+            <div className='contact-us flex-column space-around'>
+                <div>
+                    <Headline
+                        header='Contact Us'
+                        description='We know what we need to do'
+                        size='small'
+                    />
+                    <Contacts/>
+                </div>
+                <Form/>
+                <span className='footer'>Copyright © Kenan Hamidic. All rights reserved.</span>
+            </div>
+        );
+    }
+}
+
+export default ContactUs;
