@@ -1,0 +1,20 @@
+.services {
+  position: relative;
+  overflow: hidden;
+  height: 1678px;
+  margin-top: 260px;
+  background-color: #181818;
+  transform: skewY(-8deg);
+}
+.services .wrapper {
+  background-repeat: no-repeat;
+  background-position: 50% -500%;
+  min-height: 100%;
+  transform: skewY(8deg);
+}
+.services-content {
+  color: #fefefe;
+  max-width: 65%;
+}
+
+/*# sourceMappingURL=ServicesSection.css.map */

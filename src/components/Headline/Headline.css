@@ -12,12 +12,12 @@
   margin-bottom: 48px;
 }
 
-.small {
-  &-headline {
-    font-size: 34pt;
-  }
-  &-description {
-    font-size: 16pt;
-    font-weight: lighter;
-  }
+.small-headline {
+  font-size: 34pt;
 }
+.small-description {
+  font-size: 16pt;
+  font-weight: lighter;
+}
+
+/*# sourceMappingURL=Headline.css.map */

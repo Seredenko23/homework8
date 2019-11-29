@@ -1,0 +1,14 @@
+.service {
+  margin: 0 12px;
+  text-align: center;
+}
+.service-title {
+  font-size: 26pt;
+  margin: 40px 0;
+}
+.service-description {
+  font-size: 18pt;
+  color: #454545;
+}
+
+/*# sourceMappingURL=Service.css.map */

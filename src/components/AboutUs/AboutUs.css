@@ -1,0 +1,13 @@
+.about-us {
+  position: relative;
+  min-height: 1332px;
+  background-color: #1d1d1d;
+}
+
+.town {
+  width: 100%;
+  position: absolute;
+  bottom: -2px;
+}
+
+/*# sourceMappingURL=AboutUs.css.map */

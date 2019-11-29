@@ -1,0 +1,14 @@
+.symbol-wrapper {
+  width: 172px;
+  height: 172px;
+  border: 7px solid white;
+  background-color: #181818;
+  border-radius: 50%;
+}
+
+.icon {
+  font-size: 60pt;
+  color: white;
+}
+
+/*# sourceMappingURL=Symbol.css.map */

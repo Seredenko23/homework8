@@ -1,0 +1,14 @@
+.logo {
+  margin: 0 22px;
+  min-width: 55px;
+  min-height: 55px;
+  background-color: black;
+  text-align: center;
+}
+.logo-letter {
+  color: #fefefe;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=Logo.css.map */

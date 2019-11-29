@@ -5,8 +5,7 @@
   color: $main-font-color;
   margin:0 22px;
   text-decoration: none;
-}
-
-.nav-elem:hover {
-  color: $hover-font-color;
+  &:hover {
+    color: $hover-font-color;
+  }
 }

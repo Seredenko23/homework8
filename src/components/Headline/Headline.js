@@ -8,7 +8,7 @@ class Headline extends Component {
                     {this.props.size === 'big' ?
                         (<div className='headline-wrapper flex-column'>
                             <h1 className='headline'>{this.props.header}</h1>
-                            <h3 className='description'>{this.props.description}</h3>
+                            <h2 className='description'>{this.props.description}</h2>
                         </div>
                         ) : (
                         <div className='headline-wrapper flex-column'>

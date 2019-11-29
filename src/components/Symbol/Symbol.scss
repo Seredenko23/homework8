@@ -1,0 +1,14 @@
+@import '../../css/variables';
+
+.symbol-wrapper {
+  width: 172px;
+  height: 172px;
+  border: 7px solid $second-background-color;
+  background-color: $services-background;
+  border-radius: 50%;
+}
+
+.icon {
+  font-size: 60pt;
+  color: $second-background-color;
+}

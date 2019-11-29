@@ -1,0 +1,11 @@
+.nav-elem {
+  font-size: 13pt;
+  color: #979797;
+  margin: 0 22px;
+  text-decoration: none;
+}
+.nav-elem:hover {
+  color: #454545;
+}
+
+/*# sourceMappingURL=NavigationElement.css.map */

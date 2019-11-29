@@ -19,12 +19,12 @@ class Team extends Component {
         {
             name:'Justin Twice',
             job:'Founder & CEO',
-            photo:anton
+            photo:justin
         },
         {
             name:'Antonio Never',
             job:'Someone & Somewhere',
-            photo:justin
+            photo:anton
         }]
 
         developers.forEach((elem, ind) => {

@@ -1,0 +1,14 @@
+@import '../../css/variables';
+
+.service {
+  margin: 0 12px;
+  text-align: center;
+  &-title {
+    font-size: 26pt;
+    margin: 40px 0;
+  }
+  &-description {
+    font-size: 18pt;
+    color: $hover-font-color;
+  }
+}
