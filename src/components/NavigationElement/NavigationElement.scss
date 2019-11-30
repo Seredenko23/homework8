@@ -9,3 +9,9 @@
     color: $hover-font-color;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .nav-elem {
+    display: none !important;
+  }
+}

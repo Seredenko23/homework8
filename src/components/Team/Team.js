@@ -7,7 +7,6 @@ import justin from '../../assets/img/JustinTwice.png'
 import './Team.scss'
 
 class Team extends Component {
-
     render() {
         let elements = []
         let developers = [
@@ -39,12 +38,12 @@ class Team extends Component {
         })
 
         return (
-            <section className='team flex-column space-around'>
+            <section className='team flex space-around'>
                 <Headline
                     header='This is our team'
                     description='We are small but effective and ...'
                     size='small'/>
-                <div className='developers flex-row'>
+                <div className='developers flex'>
                     {elements}
                 </div>
             </section>

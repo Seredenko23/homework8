@@ -4,4 +4,18 @@
   background-color: white;
 }
 
+.grid {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 20% 20% 20% 20%;
+  grid-template-columns: 50% 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.grid-elem {
+  flex-direction: column;
+}
+
 /*# sourceMappingURL=Timeline.css.map */

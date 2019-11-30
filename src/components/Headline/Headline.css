@@ -2,6 +2,14 @@
   margin: 0;
 }
 
+.headline-wrapper {
+  flex-direction: column;
+}
+
+.headline-content {
+  flex-direction: column;
+}
+
 .headline {
   font-size: 44pt;
   font-weight: bold;
@@ -18,6 +26,37 @@
 .small-description {
   font-size: 16pt;
   font-weight: lighter;
+}
+
+@media screen and (max-width: 425px) {
+  .headline {
+    font-size: 24pt;
+  }
+
+  .description {
+    font-size: 13pt;
+    text-align: center;
+  }
+
+  .small-headline {
+    font-size: 24pt;
+  }
+  .small-description {
+    font-size: 13pt;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 320px) {
+  .headline {
+    font-size: 20pt;
+  }
+
+  .small-headline {
+    font-size: 18pt;
+  }
+  .small-description {
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=Headline.css.map */

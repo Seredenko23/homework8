@@ -3,12 +3,37 @@
 .service {
   margin: 0 12px;
   text-align: center;
+  flex-direction: column;
   &-title {
     font-size: 26pt;
     margin: 40px 0;
   }
   &-description {
     font-size: 18pt;
+    max-width: 400px;
     color: $hover-font-color;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .service {
+    margin: 10px 0;
+    &-title {
+      font-size: 24pt;
+    }
+    &-description {
+      font-size: 15pt;
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .service {
+    &-title {
+      font-size: 20pt;
+    }
+    &-description {
+      font-size: 12pt;
+    }
   }
 }

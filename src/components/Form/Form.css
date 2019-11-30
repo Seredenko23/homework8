@@ -1,3 +1,7 @@
+.contact-form {
+  flex-direction: column;
+}
+
 .contact-input, .contact-textarea {
   min-width: 770px;
   margin: 10px 0;
@@ -26,6 +30,33 @@
   font-size: 17pt;
   color: white;
   background-color: #1d1d1d;
+}
+@media screen and (max-width: 768px) {
+  .contact-input, .contact-textarea {
+    min-width: 570px;
+  }
+
+  .submit {
+    min-width: 576px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .contact-input, .contact-textarea {
+    min-width: 370px;
+  }
+
+  .submit {
+    min-width: 376px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .contact-input, .contact-textarea {
+    min-width: 270px;
+  }
+
+  .submit {
+    min-width: 276px;
+  }
 }
 
 /*# sourceMappingURL=Form.css.map */

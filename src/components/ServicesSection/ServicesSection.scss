@@ -7,14 +7,26 @@
   margin-top: 260px;
   background-color: $services-background;
   transform: skewY(-8deg);
+  flex-direction: column;
   .wrapper {
     background-repeat: no-repeat;
     background-position: 50% -500%;
     min-height: 100%;
     transform: skewY(8deg);
+    flex-direction: column;
   }
   &-content {
     color: $second-main-font-color;
-    max-width: 65%;
+    max-width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .services {
+    margin-top: 120px;
+    .wrapper {
+      background-image: none !important;
+    }
   }
 }

@@ -2,4 +2,10 @@
   margin-top: 70px;
 }
 
+@media screen and (max-width: 425px) {
+  .contacts-wrapper {
+    flex-direction: column;
+  }
+}
+
 /*# sourceMappingURL=Contacts.css.map */

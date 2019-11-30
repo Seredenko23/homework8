@@ -5,7 +5,7 @@ import './Symbol.scss'
 class Symbol extends Component {
     render() {
         return (
-            <div className='symbol-wrapper flex-column'>
+            <div className='symbol-wrapper flex'>
                 <FontAwesomeIcon className='icon' icon={this.props.symbol}/>
             </div>
         );

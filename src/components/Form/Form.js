@@ -4,7 +4,7 @@ import './Form.scss'
 class Form extends Component {
     render() {
         return (
-            <form className='flex-column'>
+            <form className='contact-form flex'>
                 <input type="text" placeholder='Full Name' className="contact-input"/>
                 <input type="text" placeholder='Email' className="contact-input"/>
                 <input type="text" placeholder='Number' className="contact-input"/>

@@ -2,6 +2,7 @@
 
 .contact {
   min-width: 200px;
+  flex-direction: column;
 }
 
 .symbol {
@@ -11,4 +12,10 @@
 .contact-title {
   margin-top: 5px;
   color: $main-font-color;
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    margin: 10px 0;
+  }
 }

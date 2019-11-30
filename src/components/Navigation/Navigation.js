@@ -6,7 +6,7 @@ import './Navigation.scss'
 class Navigation extends Component {
     render() {
         return (
-            <nav className='navigation flex-row'>
+            <nav className='navigation flex'>
                 <NavigationElement title='Home'/>
                 <NavigationElement title='About Us'/>
                 <NavigationElement title='Team'/>

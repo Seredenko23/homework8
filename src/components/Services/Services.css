@@ -2,4 +2,11 @@
   margin-top: 120px;
 }
 
+@media screen and (max-width: 768px) {
+  .services-wrapper {
+    margin-top: 60px;
+    flex-direction: column;
+  }
+}
+
 /*# sourceMappingURL=Services.css.map */

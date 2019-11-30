@@ -8,9 +8,9 @@ import './ServicesSection.scss'
 class ServicesSection extends Component {
     render() {
         return (
-            <div className='services flex-column'>
-                <div style={{backgroundImage: `url(${bg})`}} className="wrapper flex-column space-around">
-                    <div className='services-content flex-column space-between'>
+            <div className='services flex'>
+                <div style={{backgroundImage: `url(${bg})`}} className="wrapper flex space-around">
+                    <div className='services-content flex space-between'>
                         <Headline
                             header='We provide you everything'
                             description='Maybe not everything, but we provide you some stuff.'

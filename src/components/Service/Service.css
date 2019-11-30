@@ -1,6 +1,7 @@
 .service {
   margin: 0 12px;
   text-align: center;
+  flex-direction: column;
 }
 .service-title {
   font-size: 26pt;
@@ -8,7 +9,28 @@
 }
 .service-description {
   font-size: 18pt;
+  max-width: 400px;
   color: #454545;
+}
+
+@media screen and (max-width: 768px) {
+  .service {
+    margin: 10px 0;
+  }
+  .service-title {
+    font-size: 24pt;
+  }
+  .service-description {
+    font-size: 15pt;
+  }
+}
+@media screen and (max-width: 420px) {
+  .service-title {
+    font-size: 20pt;
+  }
+  .service-description {
+    font-size: 12pt;
+  }
 }
 
 /*# sourceMappingURL=Service.css.map */

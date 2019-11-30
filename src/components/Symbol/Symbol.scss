@@ -6,9 +6,21 @@
   border: 7px solid $second-background-color;
   background-color: $services-background;
   border-radius: 50%;
+  flex-direction: column;
 }
 
 .icon {
   font-size: 60pt;
   color: $second-background-color;
+}
+
+@media screen and (max-width: 320px){
+  .symbol-wrapper {
+    width: 152px;
+    height: 152px;
+  }
+
+  .icon {
+    font-size: 52pt;
+  }
 }

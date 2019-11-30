@@ -6,7 +6,7 @@ import './Contacts.scss'
 class Contacts extends Component {
     render() {
         return (
-            <div className='contacts-wrapper flex-row'>
+            <div className='contacts-wrapper flex'>
                 <Contact
                     symbol={faPhone}
                     text={'555-222-333'}

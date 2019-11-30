@@ -9,7 +9,7 @@ import './Header.scss'
 class Header extends Component {
     render() {
         return (
-            <section className='header flex-column'>
+            <section className='header flex space-between'>
                 <Navigation/>
                 <Headline
                     header='We build it with passion'

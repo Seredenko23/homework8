@@ -6,7 +6,7 @@ import './Services.scss'
 class Services extends Component {
     render() {
         return (
-            <div className='services-wrapper flex-row'>
+            <div className='services-wrapper flex'>
                 <Service
                     symbol={faChartLine}
                     title={'Some Analytics'}
