@@ -1,4 +1,6 @@
 .service {
+  font-family: HelveticaLight;
+  font-weight: lighter;
   margin: 0 12px;
   text-align: center;
   flex-direction: column;

@@ -15,10 +15,13 @@
 }
 
 .year {
+  font-family: HelveticaRoman;
   font-size: 48pt;
 }
 
 .timeline-description {
+  font-family: MontserratLight;
+  color: #979797;
   font-size: 15pt;
   max-width: 450px;
   font-weight: lighter;

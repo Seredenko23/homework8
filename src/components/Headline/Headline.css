@@ -11,26 +11,30 @@
 }
 
 .headline {
+  font-family: "Helvetica Neue";
   font-size: 44pt;
   font-weight: bold;
 }
 
 .description {
+  font-family: Merriweather;
   font-weight: lighter;
   margin-bottom: 48px;
 }
 
 .small-headline {
+  font-family: Helvetica Neue;
   font-size: 34pt;
 }
 .small-description {
+  font-family: Merriweather;
   font-size: 16pt;
   font-weight: lighter;
 }
 
 @media screen and (max-width: 425px) {
   .headline {
-    font-size: 24pt;
+    font-size: 22pt;
   }
 
   .description {
@@ -39,7 +43,7 @@
   }
 
   .small-headline {
-    font-size: 24pt;
+    font-size: 22pt;
   }
   .small-description {
     font-size: 13pt;

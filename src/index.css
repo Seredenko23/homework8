@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Merriweather";
+  font-style: italic;
+  font-weight: 400;
+  src: url("./assets/fonts/Merriweather/merriweatherlightitalic.ttf"), url("./assets/fonts/Merriweather/merriweatherlightitalic.woff"), url("./assets/fonts/Merriweather/merriweatherlightitalic.woff2");
+}
+@font-face {
+  font-family: "MontserratRegular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/Montserrat/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: "MontserratLight";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/Montserrat/Montserrat-Light.ttf");
+}
+@font-face {
+  font-family: "HelveticaRoman";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/HelveticaNeueLTPro-Roman.otf");
+}
+@font-face {
+  font-family: "HelveticaLight";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/HelveticaNeueLTPro-Cn.otf");
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+/*# sourceMappingURL=index.css.map */
