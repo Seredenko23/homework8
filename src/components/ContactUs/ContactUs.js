@@ -7,7 +7,7 @@ import './ContactUs.scss'
 class ContactUs extends Component {
     render() {
         return (
-            <div className='contact-us flex space-around'>
+            <div className='contact-us flex space-around' id='contactUs'>
                 <div>
                     <Headline
                         header='Contact Us'

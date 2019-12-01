@@ -9,7 +9,9 @@ class Form extends Component {
                 <input type="text" placeholder='Email' className="contact-input"/>
                 <input type="text" placeholder='Number' className="contact-input"/>
                 <textarea name="contact" placeholder='Write your message...' className="contact-textarea"/>
-                <button className='submit' type='submit'>Submit</button>
+                <button className='submit' type='submit'>
+                    <span className='submit-title'>Submit</span>
+                </button>
             </form>
         );
     }

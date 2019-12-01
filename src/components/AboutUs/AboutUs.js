@@ -6,7 +6,7 @@ import './AboutUs.scss'
 class AboutUs extends Component {
     render() {
         return (
-            <section className='about-us flex'>
+            <section className='about-us flex' id='aboutUs'>
                 <Timeline/>
                 <img className='town' src={bg} alt=""/>
             </section>

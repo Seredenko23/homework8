@@ -24,13 +24,48 @@
 }
 
 .submit {
+  position: relative;
   min-width: 776px;
   height: 52px;
   border: 2px solid black;
-  font-size: 17pt;
   color: white;
   background-color: #1d1d1d;
+  transition: all 300ms ease;
+  z-index: 1;
 }
+.submit-title {
+  font-size: 17pt;
+  font-weight: bold;
+  z-index: 3;
+}
+.submit:before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  background: white;
+  top: 0;
+  left: auto;
+  right: 0;
+  transition: all 300ms ease;
+  z-index: -1;
+}
+.submit:hover .submit-title {
+  color: #1d1d1d;
+  transition: 0.3s ease;
+}
+.submit:hover:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
 @media screen and (max-width: 768px) {
   .contact-input, .contact-textarea {
     min-width: 570px;

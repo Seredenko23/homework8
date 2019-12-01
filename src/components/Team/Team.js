@@ -38,7 +38,7 @@ class Team extends Component {
         })
 
         return (
-            <section className='team flex space-around'>
+            <section className='team flex space-around' id='team'>
                 <Headline
                     header='This is our team'
                     description='We are small but effective and ...'
