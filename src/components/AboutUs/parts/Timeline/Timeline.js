@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import TimelineElement from "../TimelineElement/TimelineElement";
+import TimelineElement from "./parts/TimelineElement/TimelineElement";
 import './Timeline.scss'
 
 class Timeline extends Component {

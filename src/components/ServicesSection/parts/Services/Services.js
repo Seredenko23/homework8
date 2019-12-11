@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {faChartLine, faCloudUploadAlt, faHeart} from "@fortawesome/free-solid-svg-icons";
-import Service from "../Service/Service";
+import Service from "./parts/Service/Service";
 import './Services.scss'
 
 class Services extends Component {

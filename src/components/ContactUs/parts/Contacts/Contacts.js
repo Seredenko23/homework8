@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Contact from "../Contact/Contact";
+import Contact from "./parts/Contact/Contact";
 import {faPhone, faMapMarkedAlt, faEnvelope} from "@fortawesome/free-solid-svg-icons";
 import './Contacts.scss'
 
