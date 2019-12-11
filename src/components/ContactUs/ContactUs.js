@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import Headline from "../Headline/Headline";
-import Contacts from "../Contacts/Contacts";
-import Form from "../Form/Form";
+import Headline from "../share/Headline/Headline";
+import Contacts from "./parts/Contacts/Contacts";
+import Form from "./parts/Form/Form";
 import './ContactUs.scss'
 
 class ContactUs extends Component {

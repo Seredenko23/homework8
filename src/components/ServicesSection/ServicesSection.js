@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import Headline from "../Headline/Headline";
-import Services from "../Services/Services";
-import Button from "../Button/Button";
+import Headline from "../share/Headline/Headline";
+import Services from "./parts/Services/Services";
+import Button from "../share/Button/Button";
 import bg from '../../assets/img/Posts.png'
 import './ServicesSection.scss'
 

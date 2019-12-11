@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Symbol from "../Symbol/Symbol";
+import Symbol from "./parts/Symbol/Symbol";
 import './Service.scss'
 
 class Service extends Component {

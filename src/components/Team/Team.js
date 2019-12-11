@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import Headline from "../Headline/Headline";
-import Developer from "../Developer/Developer";
+import Headline from "../share/Headline/Headline";
+import Developer from "./parts/Developer/Developer";
 import mark from '../../assets/img/MarkOnce.png'
 import anton from '../../assets/img/AntonioNever.png'
 import justin from '../../assets/img/JustinTwice.png'

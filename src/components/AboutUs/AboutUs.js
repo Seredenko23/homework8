@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Timeline from "../Timeline/Timeline";
+import Timeline from "./parts/Timeline/Timeline";
 import bg from "../../assets/img/aboutUs-bg.png"
 import './AboutUs.scss'
 

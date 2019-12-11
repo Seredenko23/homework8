@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import NavigationElement from "../NavigationElement/NavigationElement";
-import Logo from "../Logo/Logo";
+import NavigationElement from "./parts/NavigationElement/NavigationElement";
+import Logo from "./parts/Logo/Logo";
 import './Navigation.scss'
 
 class Navigation extends Component {

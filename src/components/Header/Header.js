@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import Navigation from "../Navigation/Navigation";
-import Headline from "../Headline/Headline";
-import Button from "../Button/Button";
-import GoDown from "../GoDown/GoDown";
+import Navigation from "./parts/Navigation/Navigation";
+import Headline from "../share/Headline/Headline";
+import Button from "../share/Button/Button";
+import GoDown from "./parts/GoDown/GoDown";
 
 import './Header.scss'
 

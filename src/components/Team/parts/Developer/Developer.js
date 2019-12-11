@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import SocialMedia from "../SocialMedia/SocialMedia";
+import SocialMedia from "../../../SocialMedia/SocialMedia";
 import './Developer.scss'
 
 class Developer extends Component {
